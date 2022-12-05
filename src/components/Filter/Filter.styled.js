@@ -22,6 +22,7 @@ export const FilterInput = styled(Field)`
 display: inline-block;
 padding: ${p => p.theme.space[3]}px;
 width: 200px;
+color: ${p => p.theme.colors.primary};
 border: 2px solid ${p => p.theme.colors.primary};
 border-radius: ${p => p.theme.radii.medium};
 font-size: ${p => p.theme.fontSizes[6]};
